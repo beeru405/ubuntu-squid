@@ -35,3 +35,16 @@ curl -L -v http://www.google.com
 ```
 iptables -A INPUT -p tcp --dport 3128 -d 172.17.0.2 -j ACCEPT
 ```
+#### Network configuration in browser
+
+``` 
+Open Browser > settings > Network settings > settings > Manual proxy configuration
+```
+here give squid ip address and port
+    
+#### check the logs
+path: /var/log/squid/
+```
+tail -f access.log
+``` 
+
