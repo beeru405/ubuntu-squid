@@ -1,4 +1,4 @@
-# ubuntu-squid
+# ubuntu-squid-iptables
 #### Install Docker:
 ```
 sudo apt-get update
