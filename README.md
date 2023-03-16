@@ -13,7 +13,7 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io
 ```
 docker pull ubuntu/squid
 ```
-#### create a Docker container for Squid proxy.
+#### Create a Docker container for Squid proxy.
 ```
 sudo docker run --name squid-proxy -d --restart=always -p 3128:3128 ubuntu/squid
 ```
